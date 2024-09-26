@@ -1,0 +1,11 @@
+<div class="calculatrice">
+  <div class="expression">
+    <h3>{{ input }}</h3>
+  </div>
+
+  <div class="resultat">
+    <h3>Résultat : {{ result }}</h3>
+  </div>
+
+  <app-button (buttonClick)="handleButtonClick($event)"></app-button>
+</div>
